@@ -43,9 +43,9 @@
   margin: 0;
 }
 
-.description {
+/* .description {
   text-align: justify;
-}
+} */
 
 @media (max-width: 768px) {
   .productDetails {
