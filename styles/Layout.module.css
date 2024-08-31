@@ -1,0 +1,29 @@
+.container {
+  padding: 1rem 4rem;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 4rem;
+  background-color: #efefef;
+  color: #0070f3;
+  text-align: center;
+}
+.header span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.main {
+  min-height: 85vh;
+  margin-top: 3.5rem;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem 2rem;
+  }
+}
