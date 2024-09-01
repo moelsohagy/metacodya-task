@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Layout.module.css'
 
 export default function Layout({ children }) {
@@ -11,7 +12,7 @@ export default function Layout({ children }) {
       </Head>
 
       <header className={styles.header}>
-        <span>Metacodya</span>
+        <Link href="/">Metacodya</Link>
       </header>
 
       <main className={styles.main}>{children}</main>

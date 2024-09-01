@@ -5,7 +5,7 @@ export default function ProductInfo({ product }) {
   return (
     <div className={styles.productDetails}>
       <div>
-        <h1>{product.title}</h1>
+        <h2>{product.title}</h2>
         <div className={styles.category}>
           <h3>{product.category}</h3>
           <span className={styles.price}>${product.price}</span>

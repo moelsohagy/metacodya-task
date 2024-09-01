@@ -8,6 +8,7 @@ export default function productCard({ product }) {
       key={product.id}
       className={styles.product}
       href={`/product/${product.id}`}
+      title={product.title}
     >
       <div>
         <Image

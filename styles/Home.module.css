@@ -28,6 +28,12 @@
   object-fit: contain;
   aspect-ratio: 1;
 }
+.product h3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
 
 .price {
   color: #79a471;
@@ -48,10 +54,13 @@
   }
 }
 @media (max-width: 480px) {
+  .product {
+    padding-inline: 0.5rem;
+  }
   .product h3 {
     font-size: 1rem;
   }
   .price {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 }
